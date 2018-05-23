@@ -1,0 +1,109 @@
+body {
+    background-image: url('../assets/images/mountain.jpg');
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+header {
+    background: #61D3F0;
+    height: 60px;
+    width: 100%;
+}
+
+header p {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+}
+
+#profile {
+    background: white;
+    border-radius: 5px;
+    height: 220px;
+    margin-right: 30px;
+    padding-left: 30px;
+}
+
+#profile h1 {
+    padding-bottom: 0px;
+}
+
+#profile p {
+    padding-top: 0px;
+}
+
+#profile h4 {
+    color: #547687;
+}
+
+#send-twitt {
+    background: white;
+    border-radius: 5px;
+    max-height: 600px;
+    margin-left: 30px;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    color: #898888;
+    max-height: 400px;
+    font-size: 18px;
+    width: 90%;
+    resize: none;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+}
+
+hr {
+    width: 90%;
+    border: .5px solid #547687;
+}
+
+#send-twitt button {
+    border: none;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    outline: none;
+    width: 60px;
+    background-color: #ededed;
+}
+
+#character-count {
+    margin-top: 15px;
+    margin-right: 35px;
+    float: right;
+}
+
+#time-line div {
+    background: white;
+    border-radius: 5px;
+    max-height: 100px;
+    margin: 15px 30px;
+}
+
+#time-line div p {
+    padding: 10px 20px;
+    margin: 0px;
+    color: #898888;
+}
+
+#time-line span {
+    display: block;
+    padding: 10px 20px;
+    margin: 0px;
+}
